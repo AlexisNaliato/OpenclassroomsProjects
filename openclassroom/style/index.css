@@ -1,0 +1,123 @@
+.millieu {
+    background-color: white;
+    padding: 80px;
+  }
+  
+  .millieu h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .millieu div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .debut{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin: auto;
+  }
+  
+  .debut h1 {
+    margin-bottom: 15px;
+  }
+  
+  .debut p {
+    margin-bottom: 30px;
+  }
+  
+  .debut div {
+    padding-right: 80px;
+  }
+
+  .section-contact h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+.form-nom-mail{
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+  
+}
+
+.form-nom{
+  flex: 1;
+  display:flex;
+  flex-direction:column;
+  margin-bottom: 20px;
+}
+
+input,textarea{
+  border-radius: 3px;
+  border: none;
+  padding: 15px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: white;
+  max-width: 1000px;
+}
+
+label{
+  margin-bottom: 10px;
+}
+
+input[type="submit"]{
+  margin: auto;
+  width: 200px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+
+  .millieu div{
+  
+    flex-direction: column;
+  }
+  
+  .form-nom-mail{
+    flex-direction: column;
+    
+    gap: 0;
+  }
+  
+  .debut{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .debut div{
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+
+  .debut img{
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .millieu{
+    padding: 20px;
+  }
+  
+  .section-contact{
+    padding: 50px 20px;
+  }
+}
